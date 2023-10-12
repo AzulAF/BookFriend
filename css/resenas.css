@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(65, 38, 3);
+    /*background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_1280.jpg");*/
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;
+    left: 0px;  
+    opacity: 90.15;
+    position: center;
+    top: 0px;
+    width: 98%;
+    z-index: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 1em;
+    color: bisque;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+.p2 {
+    font-size: 1em;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+/*FORM SECTION*/
+#survey-form{
+  background-color:#FFFFFF;
+  font-family:Quicksand;
+  max-width:70%;
+  margin:auto;
+  padding:0;
+  border-radius:15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#description{
+  text-align:center;
+  font-size:16px;
+  padding-top:17px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: bisque;
+}
+
+.fieldset{
+  border-width:0;
+  padding-top:1%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub-group{
+  position:relative;
+  right:30px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:1%;
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label.left{
+  width:30%;
+  padding-right:4%;
+  text-align:right;
+  
+}
+
+
+.right{
+  width:30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-field{
+  height:20px;
+  padding:5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  
+}
+
+#dropdown{
+  font-family:Quicksand;
+  height:30px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox{
+  position:relative;
+  padding:3px;
+  right:3px;
+  bottom:15px;
+}
+
+.radio{
+  position:relative;
+  padding:3px;
+  bottom:15px;
+}
+
+h2{
+  position:relative;
+  bottom:8px;
+  font-size:16px;
+  text-align:center;
+  font-weight:bold;
+  color:bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.commentbox{
+  text-align:center;
+  
+  
+}
+
+textarea{
+  width:65%;
+  border-radius:4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit{
+  background:bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius:4px;
+  font-size:23px;
+}
+
+label:hover{
+  cursor:pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 580px) {
+  body {
+    font-size: 9px;
+  }
+}
+/*END FORM*/
+/*HEADER SECTION*/
+
+.header {
+  overflow: hidden;
+  background-color: rgb(65, 38, 3);
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header a {
+  float: left;
+  color: bisque;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.header a.active {
+  background-color: bisque;
+  color: black;
+}
+
+.header-center {
+  float: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .header-center {
+    float: none;
+  }
+}
+/* STOP HEADER AQUI*/

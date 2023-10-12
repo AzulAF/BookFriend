@@ -1,0 +1,124 @@
+<!-- Azul Alfaro Fernández-->
+
+<!DOCTYPE html>
+<html lang = "es">
+    <!-- un comentario wuuuu -->
+    <!-- en el hea va el metadata de la pagina-->
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reseñas</title>
+        <link rel="stylesheet" href="./css/resenas.css">
+
+    </head>
+    <!--mbody es todo el contenido visible de la pagina web-->
+
+    <body>
+        <!--ESTE CACHO ES EL HEADER: REUTILIZAR-->
+        <div class="header">
+          <a href="./index.html" class="logo">El Recuento</a>
+            <div class="header-center">
+                
+              <a id="source-link" href="./index.html" >
+                <span>Inicio</span>
+              </a>
+              <a id="source-link" href="./recomendaciones.html">
+                <span>Recomendaciones</span>
+              </a>
+              <a id="source-link" href="./nosotros.html">
+                <span>Nosotros</span>
+              </a>
+              <a id="source-link" href="./categorias.html">
+                <span>Categorías</span>
+              </a>
+              <a id="source-link" class= "active" href="./resenas.html" >
+                <span>Reseñas</span>
+              </a>
+            </div>
+          </div>
+          <!--ESTE CACHO ES EL HEADER: REUTILIZAR-->
+          
+        <p class="p1">¿Deseas comentar sobre nuestra página?</p>
+
+        <!-- FORMULARIOS -->
+    <form>
+      <form id="survey-form">
+
+        <div id="description"> Haznos saber tu opinión</div><br>
+      
+        <fieldset class="fieldset">
+      
+          <div class="sub-group">
+            <label class="left" id="name-label" for="name">Nombre:</label>
+          <input type="text" name="customer-name" class="right input-field" id="name" placeholder="Ingresa tu nombre" required>
+          </div>
+      
+          <div class="sub-group">
+            <label class="left" id="email-label" for="email">Correo:</label>
+          <input type="email" name="Email-address" class="right input-field" placeholder="Ingresa tu correo" id="email" required>
+          </div>
+      
+          <div class="sub-group">
+            <label  class="left" id="number-label" for="number">Edad:</label>
+          <input type="number" name="Age" placeholder="Edad" min="1" max="100" class="right input-field" id="number">
+        </div>
+      
+          <div class="sub-group">
+            <label class="left" id="handphone-label" for="handphone">Telefono:</label>
+      
+          <input type="text" placeholder="Número" class="right input-field" id="handphone">
+        </div>
+      
+          <div class="sub-group">
+            <label class="left" for="dropdown">¿Es la primera vez que nos visitas?</label>
+      
+            <select class="right dropdown" id="dropdown" name="dropdown">
+              <option selected disabled>Elige una opción</option>
+              <option value="first">Pimera vez</option>
+              <option value="never">Nunca antes</option>
+              <option value="frequent">Visito la página rutinariamente</option>
+            </select>
+          </div>
+        </fieldset>
+      
+        <fieldset class="fieldset">
+      <div class="sub-group">
+      <label class="left">
+        ¿Qué opinas de nuestras recomendaciones? ¿Haz leído algun título del mes?</label>
+      
+       <ul style="list-style: none;" class="right">
+      
+         <li class="checkbox"><label><input type="checkbox" name="game" value="casademunecas" >Casa de Muñecas</label></li>
+           <li class="checkbox"><label><input type="checkbox" name="game" value="stephanie">La Desaparición de Stephanie Mailer</label></li>
+           <li class="checkbox"><label><input type="checkbox" name="game" value="cdblanca" >El silencio de la ciudad Blanca</li>
+           <li class="checkbox"><label><input type="checkbox" name="game" value="orv" >Omniscient Reader’s Viewpoint</label></li>
+           <li class="checkbox"><label><input type="checkbox" name="game" value="tcf" >Trash of the Count’s Family</label></li>
+             </ul></div></fieldset>
+      
+          <fieldset class="fieldset">
+        <div class="sub-group">
+        <label class="left" id="left-radio">¿Nos recomendarías?</label>
+      
+         <ul style="list-style: none" class="right">
+             <li class="radio"><label><input name="radio-buttons" value="1" type="radio" class="recommendation">Si</label></li>
+             <li class="radio"><label><input name="radio-buttons" value="2" type="radio" class="recommendation">Tal vez</label></li>
+             <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">No</label></li>
+         </ul>
+        </div></fieldset>
+      
+           <fieldset class="fieldset">
+         <h2>¿Algún comentario o sugerencia?</h2>
+      
+          <div class="commentbox">
+      
+         <textarea rows="4"  placeholder="Escribe aqui tu comentario. Apreciamos tu apoyo."></textarea>
+      
+         <br></br>
+      
+        <button class="p2" id="submit" type="submit">Enviar</button>
+             </div></fieldset>
+      </form>
+
+
+    </body>
+</html>

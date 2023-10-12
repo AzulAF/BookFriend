@@ -1,0 +1,97 @@
+body {
+    background-color: bisque;
+    /*background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_1280.jpg");*/
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;
+    left: 0px;  
+    opacity: 90.15;
+    position: center;
+    top: 0px;
+    width: 98%;
+    z-index: 0;
+}
+
+h1 {
+    
+    color: white;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 2em;
+    padding: 2em 2em;
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+.p2 {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .p3 {
+    font-size: 1em;
+    padding: 2em 2em;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/*HEADER SECTION*/
+
+.header {
+  overflow: hidden;
+  background-color: bisque;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.header a.active {
+  background-color: black;
+  color: white;
+}
+
+.header-center {
+  float: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .header-center {
+    float: none;
+  }
+}
+/* STOP HEADER AQUI*/
