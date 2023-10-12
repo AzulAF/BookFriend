@@ -95,3 +95,53 @@ h1 {
   }
 }
 /* STOP HEADER AQUI*/
+
+
+/*FOOTER*/
+.p9 {
+  font-size: 1em;
+  color: bisque;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-footer
+{
+  background-color:rgb(65, 38, 3);
+  padding:0px 0 0px;
+
+  font-size:15px;
+  line-height:10px;
+  color:bisque;
+}
+
+.site-footer h6
+{
+  color:bisque;
+  font-size:1.3em;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.container {
+	padding: 2rem;
+}
